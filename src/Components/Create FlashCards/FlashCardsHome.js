@@ -7,7 +7,7 @@ import CreateFlashCards from './CreateFlashCards'
 
 const FlashCardsHome = () => {
   return (
-    <div className=" bg-yellow-50 min-h-screen p-1 dark:bg-[#0d1117]">
+    <div className=" bg-pink-100 min-h-screen p-1 dark:bg-[#0d1117]">
       <div className='m-auto  w-4/5'>
         <h1 className='font-bold my-5 text-lg dark:text-white'>Create Flashcard</h1>
 
