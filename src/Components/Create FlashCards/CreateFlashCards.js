@@ -79,7 +79,7 @@ const CreateFlashCards = () => {
         }}>
         {({ values, handleChange, handleBlur, setFieldValue }) => (
           <Form>
-            <div className='bg-gray-300 dark:bg-gray-800 p-7 my-2 drop-shadow-md rounded-lg'>
+            <div className='bg-gray-700 dark:bg-gray-900 p-7 my-2 drop-shadow-md rounded-lg'>
               <div className="flex flex-wrap">
                 <div className=" w-96 px-3">
                   {/* it's a input field for create a group name  */}
@@ -87,7 +87,7 @@ const CreateFlashCards = () => {
                     htmlFor="Create_Group" >
                     Create Group*
                   </label>
-                  <Field className="appearance-none block w-full my-2 bg-white text-gray-700 border border-gray-200 rounded py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  <Field className="appearance-none block w-full my-2 bg-white text-gray-900 border border-gray-200 rounded py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                     id="Create_Group"
                     name='Create_Group'
                     type="text"
@@ -160,7 +160,7 @@ const CreateFlashCards = () => {
             <FieldArray
               name="term"
               render={(arrayHelpers) => (
-                <div className='bg-gray-300 dark:bg-gray-800 p-7 my-4 drop-shadow-md rounded-lg'>
+                <div className='bg-gray-700 dark:bg-gray-900 p-7 my-4 drop-shadow-md rounded-lg'>
 
                   {
                     values.term.map((term, index) => (
@@ -175,7 +175,7 @@ const CreateFlashCards = () => {
                           {/* it's a input field for Term Name */}
                           <input
                             ref={addRefs}
-                            className="appearance-none block w-full my-2 bg-white text-gray-700 border border-gray-200 rounded py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                            className="appearance-none block w-full my-2 bg-white text-gray-900 border border-gray-200 rounded py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                             name={`term.${index}.Enter_Term`}
                             id={`term.${index}.Enter_Term`}
                             value={term.Enter_Term}
